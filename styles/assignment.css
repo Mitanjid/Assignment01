@@ -314,6 +314,49 @@ a {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #4f46e5;
+ 
   outline: none;
+}
+
+
+/*footer section */
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: #4f46e5;
+  margin-bottom: 20px;
+  font-family: "inter", sans-serif;
+  font-size: 100px;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #8987A1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #8987A1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #4E47FF;
 }
